@@ -1,8 +1,10 @@
+import IndexPageStyle from './../styles/pages/indexPageStyle'
+
 const IndexPage = () => {
   return (
-    <div>
-      Welcome to Next.js!
-    </div>
+    <IndexPageStyle>
+      HOME
+    </IndexPageStyle>
   )
 }
 
