@@ -1,0 +1,26 @@
+{
+  "name": "pia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ryteck/pia.git",
+  "author": "ryteck <ryteckgm@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "^7.22.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}
